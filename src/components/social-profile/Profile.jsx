@@ -1,6 +1,6 @@
 import user from './user.json'
 
-export default function User({user}) {
+export default function User(props) {
     <div class="profile">
   <div class="description">
     <img
