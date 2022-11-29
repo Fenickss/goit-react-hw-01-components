@@ -7,8 +7,10 @@ import data from './statistics/data.json';
 import FriendList from './friendList/FriendList';
 import friends from './friendList/friends';
 
+import TransactionHistory from './transaction-history/TransactionHistory';
+import items from './transaction-history/transactions.json';
+
 const App = () => {
-  // console.log(friends);
   return (
     <div>
       <UserCard
@@ -22,6 +24,7 @@ const App = () => {
       />
       <Statistics title="Upload stats" stats={data} />;
       <FriendList friends={friends} />
+      <TransactionHistory items={items} />
     </div>
   );
 };
