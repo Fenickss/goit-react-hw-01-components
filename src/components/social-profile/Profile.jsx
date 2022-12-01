@@ -20,7 +20,7 @@ const UserCard = ({
       </div>
 
       <ul className={style.stats}>
-        <li>
+        <li className={style.item}>
           <span className={style.label}>Followers</span>
           <span className={style.quantity}>{followers}</span>
         </li>
